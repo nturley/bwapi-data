@@ -215,8 +215,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Arbiter_Tribunal",
-        "Stargate"
+        "Stargate",
+        "Arbiter_Tribunal"
       ],
       "supplyProvided": 0,
       "supplyRequired": 8,
@@ -229,9 +229,9 @@
       "mineralPrice": 200,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
         "Templar_Archives",
-        "Stargate"
+        "Stargate",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -257,8 +257,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "SCV",
-        "Factory"
+        "Factory",
+        "SCV"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -284,8 +284,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "SCV",
-        "Command_Center"
+        "Command_Center",
+        "SCV"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -298,9 +298,9 @@
       "mineralPrice": 400,
       "requiredTech": "None",
       "requiredUnits": [
-        "Physics_Lab",
+        "Control_Tower",
         "Starport",
-        "Control_Tower"
+        "Physics_Lab"
       ],
       "supplyProvided": 0,
       "supplyRequired": 12,
@@ -341,8 +341,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Cybernetics_Core"
+        "Cybernetics_Core",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -382,8 +382,8 @@
       "mineralPrice": 50,
       "requiredTech": "None",
       "requiredUnits": [
-        "Academy",
-        "Command_Center"
+        "Command_Center",
+        "Academy"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -475,8 +475,8 @@
       "mineralPrice": 125,
       "requiredTech": "None",
       "requiredUnits": [
-        "Gateway",
-        "Templar_Archives"
+        "Templar_Archives",
+        "Gateway"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -503,8 +503,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Hive",
-        "Drone"
+        "Drone",
+        "Hive"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -531,8 +531,8 @@
       "mineralPrice": 125,
       "requiredTech": "None",
       "requiredUnits": [
-        "Gateway",
-        "Cybernetics_Core"
+        "Cybernetics_Core",
+        "Gateway"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -558,8 +558,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Starport",
-        "Control_Tower"
+        "Control_Tower",
+        "Starport"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -585,8 +585,8 @@
       "mineralPrice": 125,
       "requiredTech": "None",
       "requiredUnits": [
-        "SCV",
-        "Command_Center"
+        "Command_Center",
+        "SCV"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -599,8 +599,8 @@
       "mineralPrice": 75,
       "requiredTech": "None",
       "requiredUnits": [
-        "Drone",
-        "Hatchery"
+        "Hatchery",
+        "Drone"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -654,8 +654,8 @@
       "mineralPrice": 300,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Stargate"
+        "Stargate",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -668,8 +668,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Nexus",
-        "Probe"
+        "Probe",
+        "Nexus"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -682,8 +682,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Nexus",
-        "Probe"
+        "Probe",
+        "Nexus"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -711,8 +711,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Factory",
-        "Armory"
+        "Armory",
+        "Factory"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -725,8 +725,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Hive",
-        "Spire"
+        "Spire",
+        "Hive"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -766,8 +766,8 @@
       "mineralPrice": 50,
       "requiredTech": "None",
       "requiredUnits": [
-        "Gateway",
-        "Templar_Archives"
+        "Templar_Archives",
+        "Gateway"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -780,8 +780,8 @@
       "mineralPrice": 200,
       "requiredTech": "None",
       "requiredUnits": [
-        "Lair",
-        "Queens_Nest"
+        "Queens_Nest",
+        "Lair"
       ],
       "supplyProvided": 2,
       "supplyRequired": 0,
@@ -848,8 +848,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Spawning_Pool",
-        "Hatchery"
+        "Hatchery",
+        "Spawning_Pool"
       ],
       "supplyProvided": 2,
       "supplyRequired": 0,
@@ -996,8 +996,8 @@
       "requiredTech": "None",
       "requiredUnits": [
         "Science_Facility",
-        "Covert_Ops",
-        "Command_Center"
+        "Command_Center",
+        "Covert_Ops"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1010,8 +1010,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Hive",
-        "Drone"
+        "Drone",
+        "Hive"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1024,8 +1024,8 @@
       "mineralPrice": 50,
       "requiredTech": "None",
       "requiredUnits": [
-        "Robotics_Facility",
-        "Probe"
+        "Probe",
+        "Robotics_Facility"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1038,8 +1038,8 @@
       "mineralPrice": 25,
       "requiredTech": "None",
       "requiredUnits": [
-        "Robotics_Facility",
-        "Observatory"
+        "Observatory",
+        "Robotics_Facility"
       ],
       "supplyProvided": 0,
       "supplyRequired": 2,
@@ -1065,8 +1065,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Forge"
+        "Forge",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1118,8 +1118,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Larva",
-        "Queens_Nest"
+        "Queens_Nest",
+        "Larva"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -1146,8 +1146,8 @@
       "mineralPrice": 200,
       "requiredTech": "None",
       "requiredUnits": [
-        "Robotics_Facility",
-        "Robotics_Support_Bay"
+        "Robotics_Support_Bay",
+        "Robotics_Facility"
       ],
       "supplyProvided": 0,
       "supplyRequired": 8,
@@ -1173,8 +1173,8 @@
       "mineralPrice": 200,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Cybernetics_Core"
+        "Cybernetics_Core",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1187,8 +1187,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Robotics_Facility",
-        "Probe"
+        "Probe",
+        "Robotics_Facility"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1227,8 +1227,8 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "SCV",
-        "Starport"
+        "Starport",
+        "SCV"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1241,9 +1241,9 @@
       "mineralPrice": 100,
       "requiredTech": "None",
       "requiredUnits": [
-        "Starport",
+        "Control_Tower",
         "Science_Facility",
-        "Control_Tower"
+        "Starport"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -1310,8 +1310,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Machine_Shop",
-        "Factory"
+        "Factory",
+        "Machine_Shop"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -1324,8 +1324,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Machine_Shop",
-        "Factory"
+        "Factory",
+        "Machine_Shop"
       ],
       "supplyProvided": 0,
       "supplyRequired": 4,
@@ -1338,8 +1338,8 @@
       "mineralPrice": 200,
       "requiredTech": "None",
       "requiredUnits": [
-        "Drone",
-        "Hatchery"
+        "Hatchery",
+        "Drone"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1366,8 +1366,8 @@
       "mineralPrice": 50,
       "requiredTech": "None",
       "requiredUnits": [
-        "Creep_Colony",
-        "Evolution_Chamber"
+        "Evolution_Chamber",
+        "Creep_Colony"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1380,8 +1380,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Cybernetics_Core"
+        "Cybernetics_Core",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1394,8 +1394,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "SCV",
-        "Factory"
+        "Factory",
+        "SCV"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1435,8 +1435,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Probe",
-        "Citadel_of_Adun"
+        "Citadel_of_Adun",
+        "Probe"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1463,8 +1463,8 @@
       "mineralPrice": 150,
       "requiredTech": "None",
       "requiredUnits": [
-        "Hive",
-        "Drone"
+        "Drone",
+        "Hive"
       ],
       "supplyProvided": 0,
       "supplyRequired": 0,
@@ -1477,9 +1477,9 @@
       "mineralPrice": 250,
       "requiredTech": "None",
       "requiredUnits": [
-        "Starport",
+        "Control_Tower",
         "Armory",
-        "Control_Tower"
+        "Starport"
       ],
       "supplyProvided": 0,
       "supplyRequired": 6,
@@ -1537,6 +1537,688 @@
       "supplyProvided": 0,
       "supplyRequired": 1,
       "whatBuilds": "Larva"
+    }
+  },
+  "upgradeTypes": {
+    "Adrenal_Glands": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Spawning_Pool",
+      "whatsRequired": "Hive"
+    },
+    "Anabolic_Synthesis": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Ultralisk_Cavern",
+      "whatsRequired": "None"
+    },
+    "Antennae": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Lair",
+      "whatsRequired": "None"
+    },
+    "Apial_Sensors": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Fleet_Beacon",
+      "whatsRequired": "None"
+    },
+    "Apollo_Reactor": {
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Control_Tower",
+      "whatsRequired": "None"
+    },
+    "Argus_Jewel": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Fleet_Beacon",
+      "whatsRequired": "None"
+    },
+    "Argus_Talisman": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Templar_Archives",
+      "whatsRequired": "None"
+    },
+    "Caduceus_Reactor": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Academy",
+      "whatsRequired": "None"
+    },
+    "Carrier_Capacity": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Fleet_Beacon",
+      "whatsRequired": "None"
+    },
+    "Charon_Boosters": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Machine_Shop",
+      "whatsRequired": "Armory"
+    },
+    "Chitinous_Plating": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Ultralisk_Cavern",
+      "whatsRequired": "None"
+    },
+    "Colossus_Reactor": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Physics_Lab",
+      "whatsRequired": "None"
+    },
+    "Gamete_Meiosis": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Queens_Nest",
+      "whatsRequired": "None"
+    },
+    "Gravitic_Boosters": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Observatory",
+      "whatsRequired": "None"
+    },
+    "Gravitic_Drive": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Robotics_Support_Bay",
+      "whatsRequired": "None"
+    },
+    "Gravitic_Thrusters": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Fleet_Beacon",
+      "whatsRequired": "None"
+    },
+    "Grooved_Spines": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Hydralisk_Den",
+      "whatsRequired": "None"
+    },
+    "Ion_Thrusters": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Machine_Shop",
+      "whatsRequired": "None"
+    },
+    "Khaydarin_Amulet": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Templar_Archives",
+      "whatsRequired": "None"
+    },
+    "Khaydarin_Core": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Arbiter_Tribunal",
+      "whatsRequired": "None"
+    },
+    "Leg_Enhancements": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Citadel_of_Adun",
+      "whatsRequired": "None"
+    },
+    "Metabolic_Boost": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Spawning_Pool",
+      "whatsRequired": "None"
+    },
+    "Metasynaptic_Node": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Defiler_Mound",
+      "whatsRequired": "None"
+    },
+    "Moebius_Reactor": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Covert_Ops",
+      "whatsRequired": "None"
+    },
+    "Muscular_Augments": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Hydralisk_Den",
+      "whatsRequired": "None"
+    },
+    "None": {
+      "gasPrice": 0,
+      "getRace": "None",
+      "mineralPrice": 0,
+      "upgradeTime": 0,
+      "whatUpgrades": "None",
+      "whatsRequired": "None"
+    },
+    "Ocular_Implants": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Covert_Ops",
+      "whatsRequired": "None"
+    },
+    "Pneumatized_Carapace": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Lair",
+      "whatsRequired": "None"
+    },
+    "Protoss_Air_Armor L1": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "None"
+    },
+    "Protoss_Air_Armor L2": {
+      "gasPrice": 225,
+      "getRace": "Protoss",
+      "mineralPrice": 225,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "Fleet_Beacon"
+    },
+    "Protoss_Air_Armor L3": {
+      "gasPrice": 300,
+      "getRace": "Protoss",
+      "mineralPrice": 300,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "Fleet_Beacon"
+    },
+    "Protoss_Air_Weapons L1": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "None"
+    },
+    "Protoss_Air_Weapons L2": {
+      "gasPrice": 175,
+      "getRace": "Protoss",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "Fleet_Beacon"
+    },
+    "Protoss_Air_Weapons L3": {
+      "gasPrice": 250,
+      "getRace": "Protoss",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "Fleet_Beacon"
+    },
+    "Protoss_Ground_Armor L1": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "None"
+    },
+    "Protoss_Ground_Armor L2": {
+      "gasPrice": 175,
+      "getRace": "Protoss",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Templar_Archives"
+    },
+    "Protoss_Ground_Armor L3": {
+      "gasPrice": 250,
+      "getRace": "Protoss",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Templar_Archives"
+    },
+    "Protoss_Ground_Weapons L1": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "None"
+    },
+    "Protoss_Ground_Weapons L2": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Templar_Archives"
+    },
+    "Protoss_Ground_Weapons L3": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Templar_Archives"
+    },
+    "Protoss_Plasma_Shields L1": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "None"
+    },
+    "Protoss_Plasma_Shields L2": {
+      "gasPrice": 300,
+      "getRace": "Protoss",
+      "mineralPrice": 300,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Cybernetics_Core"
+    },
+    "Protoss_Plasma_Shields L3": {
+      "gasPrice": 400,
+      "getRace": "Protoss",
+      "mineralPrice": 400,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Forge",
+      "whatsRequired": "Cybernetics_Core"
+    },
+    "Reaver_Capacity": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Robotics_Support_Bay",
+      "whatsRequired": "None"
+    },
+    "Scarab_Damage": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Robotics_Support_Bay",
+      "whatsRequired": "None"
+    },
+    "Sensor_Array": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2000,
+      "whatUpgrades": "Observatory",
+      "whatsRequired": "None"
+    },
+    "Singularity_Charge": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Cybernetics_Core",
+      "whatsRequired": "None"
+    },
+    "Terran_Infantry_Armor L1": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "None"
+    },
+    "Terran_Infantry_Armor L2": {
+      "gasPrice": 175,
+      "getRace": "Terran",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Infantry_Armor L3": {
+      "gasPrice": 250,
+      "getRace": "Terran",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Infantry_Weapons L1": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "None"
+    },
+    "Terran_Infantry_Weapons L2": {
+      "gasPrice": 175,
+      "getRace": "Terran",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Infantry_Weapons L3": {
+      "gasPrice": 250,
+      "getRace": "Terran",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Engineering_Bay",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Ship_Plating L1": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "None"
+    },
+    "Terran_Ship_Plating L2": {
+      "gasPrice": 225,
+      "getRace": "Terran",
+      "mineralPrice": 225,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Ship_Plating L3": {
+      "gasPrice": 300,
+      "getRace": "Terran",
+      "mineralPrice": 300,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Ship_Weapons L1": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "None"
+    },
+    "Terran_Ship_Weapons L2": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Ship_Weapons L3": {
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Vehicle_Plating L1": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "None"
+    },
+    "Terran_Vehicle_Plating L2": {
+      "gasPrice": 175,
+      "getRace": "Terran",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Vehicle_Plating L3": {
+      "gasPrice": 250,
+      "getRace": "Terran",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Vehicle_Weapons L1": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "None"
+    },
+    "Terran_Vehicle_Weapons L2": {
+      "gasPrice": 175,
+      "getRace": "Terran",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Terran_Vehicle_Weapons L3": {
+      "gasPrice": 250,
+      "getRace": "Terran",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Armory",
+      "whatsRequired": "Science_Facility"
+    },
+    "Titan_Reactor": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 2500,
+      "whatUpgrades": "Science_Facility",
+      "whatsRequired": "None"
+    },
+    "U_238_Shells": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "upgradeTime": 1500,
+      "whatUpgrades": "Academy",
+      "whatsRequired": "None"
+    },
+    "Unknown": {
+      "gasPrice": 0,
+      "getRace": "Unknown",
+      "mineralPrice": 0,
+      "upgradeTime": 0,
+      "whatUpgrades": "None",
+      "whatsRequired": "None"
+    },
+    "Upgrade_60": {
+      "gasPrice": 0,
+      "getRace": "None",
+      "mineralPrice": 0,
+      "upgradeTime": 0,
+      "whatUpgrades": "None",
+      "whatsRequired": "None"
+    },
+    "Ventral_Sacs": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "upgradeTime": 2400,
+      "whatUpgrades": "Lair",
+      "whatsRequired": "None"
+    },
+    "Zerg_Carapace L1": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "None"
+    },
+    "Zerg_Carapace L2": {
+      "gasPrice": 225,
+      "getRace": "Zerg",
+      "mineralPrice": 225,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Lair"
+    },
+    "Zerg_Carapace L3": {
+      "gasPrice": 300,
+      "getRace": "Zerg",
+      "mineralPrice": 300,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Hive"
+    },
+    "Zerg_Flyer_Attacks L1": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "None"
+    },
+    "Zerg_Flyer_Attacks L2": {
+      "gasPrice": 175,
+      "getRace": "Zerg",
+      "mineralPrice": 175,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "Lair"
+    },
+    "Zerg_Flyer_Attacks L3": {
+      "gasPrice": 250,
+      "getRace": "Zerg",
+      "mineralPrice": 250,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "Hive"
+    },
+    "Zerg_Flyer_Carapace L1": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "None"
+    },
+    "Zerg_Flyer_Carapace L2": {
+      "gasPrice": 225,
+      "getRace": "Zerg",
+      "mineralPrice": 225,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "Lair"
+    },
+    "Zerg_Flyer_Carapace L3": {
+      "gasPrice": 300,
+      "getRace": "Zerg",
+      "mineralPrice": 300,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Spire",
+      "whatsRequired": "Hive"
+    },
+    "Zerg_Melee_Attacks L1": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "None"
+    },
+    "Zerg_Melee_Attacks L2": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Lair"
+    },
+    "Zerg_Melee_Attacks L3": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Hive"
+    },
+    "Zerg_Missile_Attacks L1": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "upgradeTime": 4000,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "None"
+    },
+    "Zerg_Missile_Attacks L2": {
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "upgradeTime": 4480,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Lair"
+    },
+    "Zerg_Missile_Attacks L3": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "upgradeTime": 4960,
+      "whatUpgrades": "Evolution_Chamber",
+      "whatsRequired": "Hive"
     }
   }
 }

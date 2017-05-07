@@ -21,6 +21,15 @@ useful_tech_props = [
     u'requiredUnit'
 ]
 
+useful_upgrade_props = [
+    u'mineralPrice',
+    u'gasPrice',
+    u'upgradeTime',
+    u'whatUpgrades',
+    u'whatsRequired',
+    u'getRace'
+]
+
 
 
 def clean(s):
@@ -43,7 +52,12 @@ with open('types.json') as f:
             key: clean(value) for (key, value) in t.iteritems() if key in useful_tech_props
         } for t in rawjson[u'techTypes'] if not t[u'whatResearches'] in [u'None', u'Unknown']
     }
+    upt = {
+        (u[u'toString'] if not u'level' in u else u[u'toString'] + u" L" + str(u[u'level'])): {
+            key: clean(value) for (key, value) in u.iteritems() if key in useful_upgrade_props
+        } for u in rawjson[u'upgradeTypes']
+    }
 
-types = {'unitTypes': ut, 'techTypes': tt}
+types = {'unitTypes': ut, 'techTypes': tt, 'upgradeTypes': upt}
 with open('cleanTypes.json', 'w') as f:
     json.dump(types, f, sort_keys=True, indent=2, separators=(',', ': '))
