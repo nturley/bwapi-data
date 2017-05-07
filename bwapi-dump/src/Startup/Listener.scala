@@ -21,8 +21,31 @@ object Listener extends BWEventListener{
     "      \"" + name + "\" : " + quote + data + quote
   }
 
+  def jsonAttributify(m:java.lang.reflect.Method, attrVal: AnyRef): String = {
+    val retType = m.getReturnType
+    val attrStr = if (retType == classOf[Boolean] ||
+                      retType == classOf[Int] ||
+                      retType == classOf[bwapi.TilePosition] ||
+                      retType == classOf[Double]) {
+      toJsonField(m.getName, attrVal.toString)
+    } else if (m.getName.startsWith("upgrades")) {
+      val upgradeList = attrVal.asInstanceOf[java.util.List[UpgradeType]].asScala.map("\"" + _.toString + "\"")
+      toJsonField(m.getName, "[" + upgradeList.mkString(", ") + "]")
+    } else if (retType == classOf[java.util.List[TechType]]) {
+      val techList = attrVal.asInstanceOf[java.util.List[TechType]].asScala.map("\"" + _.toString + "\"")
+      toJsonField(m.getName, "[" + techList.mkString(", ") + "]")
+    } else if (m.getName == "requiredUnits") {
+      val unitList = attrVal.asInstanceOf[java.util.Map[bwapi.UnitType, Int]].asScala.map("\"" + _._1.toString + "\"")
+      toJsonField(m.getName, "[" + unitList.mkString(", ") + "]")
+    } else if (m.getName == "whatBuilds") {
+      toJsonField(m.getName, attrVal.asInstanceOf[bwapi.Pair[UnitType, Int]].first.toString, quotes = true)
+    } else {
+      toJsonField(m.getName, attrVal.toString, quotes = true)
+    }
+    attrStr
+  }
+
   override def onStart(): Unit = {
-    val game = mirror.getGame
     try {
       val t = typeOf[bwapi.UnitType]
       val pw = new PrintWriter(new File("../types.json"))
@@ -30,32 +53,10 @@ object Listener extends BWEventListener{
       val clazz = wtt.mirror.runtimeClass(t)
 
       val unitStrs = clazz.getFields.map(f => {
-        val uType = f.get(wtt).asInstanceOf[bwapi.UnitType]
-        val uAttrs = uType.getClass.getDeclaredMethods
+        val unitTypeInstance = f.get(wtt).asInstanceOf[bwapi.UnitType]
+        val uAttrs = unitTypeInstance.getClass.getDeclaredMethods
           .filter(m => m.getParameterCount == 0 && m.getName != "size")
-          .map(m => {
-            val retType = m.getReturnType
-            val attrStr = if (retType == classOf[Boolean] ||
-              retType == classOf[Int] ||
-              retType == classOf[bwapi.TilePosition] ||
-              retType == classOf[Double]) {
-              toJsonField(m.getName, m.invoke(uType).toString)
-            } else if (m.getName.startsWith("upgrades")) {
-              val upgradeList = m.invoke(uType).asInstanceOf[java.util.List[UpgradeType]].asScala.map("\"" + _.toString + "\"")
-              toJsonField(m.getName, "[" + upgradeList.mkString(", ") + "]")
-            } else if (retType == classOf[java.util.List[TechType]]) {
-              val techList = m.invoke(uType).asInstanceOf[java.util.List[TechType]].asScala.map("\"" + _.toString + "\"")
-              toJsonField(m.getName, "[" + techList.mkString(", ") + "]")
-            } else if (m.getName == "requiredUnits") {
-              val unitList = m.invoke(uType).asInstanceOf[java.util.Map[bwapi.UnitType, Int]].asScala.map("\"" + _._1.toString + "\"")
-              toJsonField(m.getName, "[" + unitList.mkString(", ") + "]")
-            } else if (m.getName == "whatBuilds") {
-              toJsonField(m.getName, m.invoke(uType).asInstanceOf[bwapi.Pair[UnitType, Int]].first.toString, quotes = true)
-            } else {
-              toJsonField(m.getName, m.invoke(uType).toString, quotes = true)
-            }
-            attrStr
-          })
+          .map(m => jsonAttributify(m, m.invoke(unitTypeInstance)))
         "    {\n" + uAttrs.mkString(",\n")+"\n    }"
       })
 
@@ -65,33 +66,57 @@ object Listener extends BWEventListener{
       val techClass = wTechType.mirror.runtimeClass(techtype)
 
       val techStrs = techClass.getFields.map(f => {
-        val tType = f.get(wtt).asInstanceOf[bwapi.TechType]
-        val tAttrs = tType.getClass.getDeclaredMethods
+        val techInstance = f.get(wTechType).asInstanceOf[bwapi.TechType]
+        val tAttrs = techInstance.getClass.getDeclaredMethods
           .filter(m => m.getParameterCount == 0 && m.getName != "size")
-          .map(m => {
-            val retType = m.getReturnType
-            val attrStr = if (retType == classOf[Boolean] ||
-              retType == classOf[Int] ||
-              retType == classOf[bwapi.TilePosition] ||
-              retType == classOf[Double]) {
-              toJsonField(m.getName, m.invoke(tType).toString)
-            } else {
-              toJsonField(m.getName, m.invoke(tType).toString, quotes = true)
-            }
-            attrStr
-          })
+          .map(m => jsonAttributify(m, m.invoke(techInstance)))
         "    {\n" + tAttrs.mkString(",\n")+"\n    }"
       })
+
+      val upgradeType = typeOf[bwapi.UpgradeType]
+      val wUpgradeType = weakTypeTag[bwapi.UpgradeType]
+      val upgradeClass = wUpgradeType.mirror.runtimeClass(upgradeType)
+
+      val upgradeStrs = upgradeClass.getFields.map(f => {
+        val upgradeInstance = f.get(wUpgradeType).asInstanceOf[bwapi.UpgradeType]
+        if (upgradeInstance.maxRepeats() > 1) {
+          val multiNames = upgradeInstance.getClass.getDeclaredMethods
+            .filter(m => !m.getName.endsWith("_native") && m.getParameterCount == 1 && m.getName != "get")
+            .map(_.getName)
+          val singleAttrs = upgradeInstance.getClass.getDeclaredMethods
+            .filter(m => !multiNames.contains(m.getName) && m.getParameterCount == 0 && m.getName != "get")
+            .map(m => jsonAttributify(m, m.invoke(upgradeInstance)))
+          val multiAttrs = (1 to upgradeInstance.maxRepeats()).map(level => {
+            val levelAttrs = upgradeInstance.getClass.getDeclaredMethods
+              .filter(m => !m.getName.endsWith("_native") && m.getParameterCount == 1 && m.getName != "get")
+              .map(m => jsonAttributify(m, m.invoke(upgradeInstance, level : java.lang.Integer)))
+            levelAttrs.mkString(",\n") +
+              ",\n      \"level\": " + level + ",\n" +
+              singleAttrs.mkString(",\n")
+          })
+          "    {\n" + multiAttrs.mkString("\n    },\n    {\n") + "\n    }"
+        } else {
+          val uAttrs = upgradeInstance.getClass.getDeclaredMethods
+            .filter(m => m.getParameterCount == 0 && m.getName != "size")
+            .map(m => jsonAttributify(m, m.invoke(upgradeInstance)))
+          "    {\n" + uAttrs.mkString(",\n") + "\n    }"
+        }
+      })
+
       pw.write("{\n  \"unitTypes\" :\n")
       pw.write("  [\n" + unitStrs.mkString(",\n") + "\n  ],\n")
       pw.write("  \"techTypes\" :\n")
-      pw.write("  [\n" + techStrs.mkString(",\n") + "\n  ]\n}")
+      pw.write("  [\n" + techStrs.mkString(",\n") + "\n  ],\n")
+
+      pw.write("  \"upgradeTypes\" :\n")
+      pw.write("  [\n" + upgradeStrs.mkString(",\n") + "\n  ]\n}")
       pw.close()
 
     } catch {
       case e : Exception => {
         println(e)
         println(e.getStackTrace)
+        println("uh oh")
       }
     }
   }
