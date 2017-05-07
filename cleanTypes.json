@@ -1,0 +1,1542 @@
+{
+  "techTypes": {
+    "Burrowing": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Hatchery"
+    },
+    "Cloaking_Field": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Control_Tower"
+    },
+    "Consume": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Defiler_Mound"
+    },
+    "Disruption_Web": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Fleet_Beacon"
+    },
+    "EMP_Shockwave": {
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Science_Facility"
+    },
+    "Ensnare": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Queens_Nest"
+    },
+    "Hallucination": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Templar_Archives"
+    },
+    "Irradiate": {
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Science_Facility"
+    },
+    "Lockdown": {
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Covert_Ops"
+    },
+    "Lurker_Aspect": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredUnit": "Lair",
+      "researchTime": 1800,
+      "whatResearches": "Hydralisk_Den"
+    },
+    "Maelstrom": {
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Templar_Archives"
+    },
+    "Mind_Control": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Templar_Archives"
+    },
+    "Optical_Flare": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Academy"
+    },
+    "Personnel_Cloaking": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Covert_Ops"
+    },
+    "Plague": {
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Defiler_Mound"
+    },
+    "Psionic_Storm": {
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Templar_Archives"
+    },
+    "Recall": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Arbiter_Tribunal"
+    },
+    "Restoration": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Academy"
+    },
+    "Spawn_Broodlings": {
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Queens_Nest"
+    },
+    "Spider_Mines": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Machine_Shop"
+    },
+    "Stasis_Field": {
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredUnit": "None",
+      "researchTime": 1500,
+      "whatResearches": "Arbiter_Tribunal"
+    },
+    "Stim_Packs": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Academy"
+    },
+    "Tank_Siege_Mode": {
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredUnit": "None",
+      "researchTime": 1200,
+      "whatResearches": "Machine_Shop"
+    },
+    "Yamato_Gun": {
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredUnit": "None",
+      "researchTime": 1800,
+      "whatResearches": "Physics_Lab"
+    }
+  },
+  "unitTypes": {
+    "Academy": {
+      "buildTime": 1200,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "SCV"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Arbiter": {
+      "buildTime": 2400,
+      "gasPrice": 350,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Arbiter_Tribunal",
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 8,
+      "whatBuilds": "Stargate"
+    },
+    "Arbiter_Tribunal": {
+      "buildTime": 900,
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Templar_Archives",
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Archon": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 0,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "High_Templar"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 8,
+      "whatBuilds": "High_Templar"
+    },
+    "Armory": {
+      "buildTime": 1200,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV",
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Assimilator": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Barracks": {
+      "buildTime": 1200,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV",
+        "Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Battlecruiser": {
+      "buildTime": 2000,
+      "gasPrice": 300,
+      "getRace": "Terran",
+      "mineralPrice": 400,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Physics_Lab",
+        "Starport",
+        "Control_Tower"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 12,
+      "whatBuilds": "Starport"
+    },
+    "Bunker": {
+      "buildTime": 450,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "SCV"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Carrier": {
+      "buildTime": 2100,
+      "gasPrice": 250,
+      "getRace": "Protoss",
+      "mineralPrice": 350,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Fleet_Beacon",
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 12,
+      "whatBuilds": "Stargate"
+    },
+    "Citadel_of_Adun": {
+      "buildTime": 900,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Cybernetics_Core"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Cocoon": {
+      "buildTime": 1,
+      "gasPrice": 1,
+      "getRace": "Zerg",
+      "mineralPrice": 1,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Mutalisk",
+        "Greater_Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Mutalisk"
+    },
+    "Command_Center": {
+      "buildTime": 1800,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 400,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV"
+      ],
+      "supplyProvided": 20,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Comsat_Station": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Academy",
+        "Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Command_Center"
+    },
+    "Control_Tower": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Starport"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Starport"
+    },
+    "Corsair": {
+      "buildTime": 600,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Stargate"
+    },
+    "Covert_Ops": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Science_Facility"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Science_Facility"
+    },
+    "Creep_Colony": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 75,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Cybernetics_Core": {
+      "buildTime": 900,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Gateway"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Dark_Archon": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 0,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Dark_Templar"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 8,
+      "whatBuilds": "Dark_Templar"
+    },
+    "Dark_Templar": {
+      "buildTime": 750,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 125,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Gateway",
+        "Templar_Archives"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Gateway"
+    },
+    "Defiler": {
+      "buildTime": 750,
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Defiler_Mound",
+        "Larva"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Larva"
+    },
+    "Defiler_Mound": {
+      "buildTime": 900,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Hive",
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Devourer": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Mutalisk",
+        "Greater_Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Mutalisk"
+    },
+    "Dragoon": {
+      "buildTime": 750,
+      "gasPrice": 50,
+      "getRace": "Protoss",
+      "mineralPrice": 125,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Gateway",
+        "Cybernetics_Core"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Gateway"
+    },
+    "Drone": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Larva"
+    },
+    "Dropship": {
+      "buildTime": 750,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Starport",
+        "Control_Tower"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Starport"
+    },
+    "Egg": {
+      "buildTime": 1,
+      "gasPrice": 1,
+      "getRace": "Zerg",
+      "mineralPrice": 1,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Larva"
+    },
+    "Engineering_Bay": {
+      "buildTime": 900,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 125,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV",
+        "Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Evolution_Chamber": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 75,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone",
+        "Hatchery"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Extractor": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Factory": {
+      "buildTime": 1200,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "SCV"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Firebat": {
+      "buildTime": 360,
+      "gasPrice": 25,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "Academy"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Barracks"
+    },
+    "Fleet_Beacon": {
+      "buildTime": 900,
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 300,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Forge": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Nexus",
+        "Probe"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Gateway": {
+      "buildTime": 900,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Nexus",
+        "Probe"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Ghost": {
+      "buildTime": 750,
+      "gasPrice": 75,
+      "getRace": "Terran",
+      "mineralPrice": 25,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "Academy",
+        "Covert_Ops"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Barracks"
+    },
+    "Goliath": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Factory",
+        "Armory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Factory"
+    },
+    "Greater_Spire": {
+      "buildTime": 1800,
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Hive",
+        "Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Spire"
+    },
+    "Guardian": {
+      "buildTime": 600,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Mutalisk",
+        "Greater_Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Mutalisk"
+    },
+    "Hatchery": {
+      "buildTime": 1800,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 300,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone"
+      ],
+      "supplyProvided": 2,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "High_Templar": {
+      "buildTime": 750,
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Gateway",
+        "Templar_Archives"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Gateway"
+    },
+    "Hive": {
+      "buildTime": 1800,
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Lair",
+        "Queens_Nest"
+      ],
+      "supplyProvided": 2,
+      "supplyRequired": 0,
+      "whatBuilds": "Lair"
+    },
+    "Hydralisk": {
+      "buildTime": 420,
+      "gasPrice": 25,
+      "getRace": "Zerg",
+      "mineralPrice": 75,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Hydralisk_Den"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Larva"
+    },
+    "Hydralisk_Den": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone",
+        "Spawning_Pool"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Infested_Terran": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Infested_Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Infested_Command_Center"
+    },
+    "Interceptor": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 25,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Carrier"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Carrier"
+    },
+    "Lair": {
+      "buildTime": 1500,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Spawning_Pool",
+        "Hatchery"
+      ],
+      "supplyProvided": 2,
+      "supplyRequired": 0,
+      "whatBuilds": "Hatchery"
+    },
+    "Larva": {
+      "buildTime": 1,
+      "gasPrice": 1,
+      "getRace": "Zerg",
+      "mineralPrice": 1,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Hatchery"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Hatchery"
+    },
+    "Lurker": {
+      "buildTime": 600,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "Lurker_Aspect",
+      "requiredUnits": [
+        "Hydralisk"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Hydralisk"
+    },
+    "Lurker_Egg": {
+      "buildTime": 1,
+      "gasPrice": 1,
+      "getRace": "Zerg",
+      "mineralPrice": 1,
+      "requiredTech": "Lurker_Aspect",
+      "requiredUnits": [
+        "Hydralisk"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Hydralisk"
+    },
+    "Machine_Shop": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Factory"
+    },
+    "Marine": {
+      "buildTime": 360,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Barracks"
+    },
+    "Medic": {
+      "buildTime": 450,
+      "gasPrice": 25,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Barracks",
+        "Academy"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Barracks"
+    },
+    "Missile_Turret": {
+      "buildTime": 450,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 75,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Engineering_Bay",
+        "SCV"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Mutalisk": {
+      "buildTime": 600,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Larva"
+    },
+    "Nexus": {
+      "buildTime": 1800,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 400,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe"
+      ],
+      "supplyProvided": 18,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Nuclear_Missile": {
+      "buildTime": 1500,
+      "gasPrice": 200,
+      "getRace": "Terran",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Nuclear_Silo"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 16,
+      "whatBuilds": "Nuclear_Silo"
+    },
+    "Nuclear_Silo": {
+      "buildTime": 1200,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Science_Facility",
+        "Covert_Ops",
+        "Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Command_Center"
+    },
+    "Nydus_Canal": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Hive",
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Observatory": {
+      "buildTime": 450,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Robotics_Facility",
+        "Probe"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Observer": {
+      "buildTime": 600,
+      "gasPrice": 75,
+      "getRace": "Protoss",
+      "mineralPrice": 25,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Robotics_Facility",
+        "Observatory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Robotics_Facility"
+    },
+    "Overlord": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva"
+      ],
+      "supplyProvided": 16,
+      "supplyRequired": 0,
+      "whatBuilds": "Larva"
+    },
+    "Photon_Cannon": {
+      "buildTime": 750,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Forge"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Physics_Lab": {
+      "buildTime": 600,
+      "gasPrice": 50,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Science_Facility"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Science_Facility"
+    },
+    "Probe": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Nexus"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Nexus"
+    },
+    "Pylon": {
+      "buildTime": 450,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe"
+      ],
+      "supplyProvided": 16,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Queen": {
+      "buildTime": 750,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Queens_Nest"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Larva"
+    },
+    "Queens_Nest": {
+      "buildTime": 900,
+      "gasPrice": 100,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Lair",
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Reaver": {
+      "buildTime": 1050,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Robotics_Facility",
+        "Robotics_Support_Bay"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 8,
+      "whatBuilds": "Robotics_Facility"
+    },
+    "Refinery": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Robotics_Facility": {
+      "buildTime": 1200,
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Cybernetics_Core"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Robotics_Support_Bay": {
+      "buildTime": 450,
+      "gasPrice": 100,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Robotics_Facility",
+        "Probe"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "SCV": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Command_Center"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 2,
+      "whatBuilds": "Command_Center"
+    },
+    "Scarab": {
+      "buildTime": 105,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 15,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Reaver"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Reaver"
+    },
+    "Science_Facility": {
+      "buildTime": 900,
+      "gasPrice": 150,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV",
+        "Starport"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Science_Vessel": {
+      "buildTime": 1200,
+      "gasPrice": 225,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Starport",
+        "Science_Facility",
+        "Control_Tower"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Starport"
+    },
+    "Scourge": {
+      "buildTime": 450,
+      "gasPrice": 75,
+      "getRace": "Zerg",
+      "mineralPrice": 25,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Spire"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 1,
+      "whatBuilds": "Larva"
+    },
+    "Scout": {
+      "buildTime": 1200,
+      "gasPrice": 125,
+      "getRace": "Protoss",
+      "mineralPrice": 275,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Stargate"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 6,
+      "whatBuilds": "Stargate"
+    },
+    "Shield_Battery": {
+      "buildTime": 450,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Gateway"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Shuttle": {
+      "buildTime": 900,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Robotics_Facility"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Robotics_Facility"
+    },
+    "Siege_Tank_Siege_Mode": {
+      "buildTime": 750,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Machine_Shop",
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Factory"
+    },
+    "Siege_Tank_Tank_Mode": {
+      "buildTime": 750,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Machine_Shop",
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Factory"
+    },
+    "Spawning_Pool": {
+      "buildTime": 1200,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Drone",
+        "Hatchery"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Spire": {
+      "buildTime": 1800,
+      "gasPrice": 150,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Lair",
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Spore_Colony": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Creep_Colony",
+        "Evolution_Chamber"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Creep_Colony"
+    },
+    "Stargate": {
+      "buildTime": 1050,
+      "gasPrice": 150,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Cybernetics_Core"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Starport": {
+      "buildTime": 1050,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV",
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Sunken_Colony": {
+      "buildTime": 300,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Creep_Colony",
+        "Spawning_Pool"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Creep_Colony"
+    },
+    "Supply_Depot": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "SCV"
+      ],
+      "supplyProvided": 16,
+      "supplyRequired": 0,
+      "whatBuilds": "SCV"
+    },
+    "Templar_Archives": {
+      "buildTime": 900,
+      "gasPrice": 200,
+      "getRace": "Protoss",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Probe",
+        "Citadel_of_Adun"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Probe"
+    },
+    "Ultralisk": {
+      "buildTime": 900,
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 200,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Ultralisk_Cavern"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 8,
+      "whatBuilds": "Larva"
+    },
+    "Ultralisk_Cavern": {
+      "buildTime": 1200,
+      "gasPrice": 200,
+      "getRace": "Zerg",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Hive",
+        "Drone"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 0,
+      "whatBuilds": "Drone"
+    },
+    "Valkyrie": {
+      "buildTime": 750,
+      "gasPrice": 125,
+      "getRace": "Terran",
+      "mineralPrice": 250,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Starport",
+        "Armory",
+        "Control_Tower"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 6,
+      "whatBuilds": "Starport"
+    },
+    "Vulture": {
+      "buildTime": 450,
+      "gasPrice": 0,
+      "getRace": "Terran",
+      "mineralPrice": 75,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Factory"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Factory"
+    },
+    "Wraith": {
+      "buildTime": 900,
+      "gasPrice": 100,
+      "getRace": "Terran",
+      "mineralPrice": 150,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Starport"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Starport"
+    },
+    "Zealot": {
+      "buildTime": 600,
+      "gasPrice": 0,
+      "getRace": "Protoss",
+      "mineralPrice": 100,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Gateway"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 4,
+      "whatBuilds": "Gateway"
+    },
+    "Zergling": {
+      "buildTime": 420,
+      "gasPrice": 0,
+      "getRace": "Zerg",
+      "mineralPrice": 50,
+      "requiredTech": "None",
+      "requiredUnits": [
+        "Larva",
+        "Spawning_Pool"
+      ],
+      "supplyProvided": 0,
+      "supplyRequired": 1,
+      "whatBuilds": "Larva"
+    }
+  }
+}
