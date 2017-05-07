@@ -25,7 +25,7 @@ object Listener extends BWEventListener{
     val game = mirror.getGame
     try {
       val t = typeOf[bwapi.UnitType]
-      val pw = new PrintWriter(new File("bwapi-data.txt"))
+      val pw = new PrintWriter(new File("../types.json"))
       val wtt = weakTypeTag[bwapi.UnitType]
       val clazz = wtt.mirror.runtimeClass(t)
 
@@ -36,9 +36,9 @@ object Listener extends BWEventListener{
           .map(m => {
             val retType = m.getReturnType
             val attrStr = if (retType == classOf[Boolean] ||
-                              retType == classOf[Int] ||
-                              retType == classOf[bwapi.TilePosition] ||
-                              retType == classOf[Double]) {
+              retType == classOf[Int] ||
+              retType == classOf[bwapi.TilePosition] ||
+              retType == classOf[Double]) {
               toJsonField(m.getName, m.invoke(uType).toString)
             } else if (m.getName.startsWith("upgrades")) {
               val upgradeList = m.invoke(uType).asInstanceOf[java.util.List[UpgradeType]].asScala.map("\"" + _.toString + "\"")
@@ -58,9 +58,36 @@ object Listener extends BWEventListener{
           })
         "    {\n" + uAttrs.mkString(",\n")+"\n    }"
       })
+
+
+      val techtype = typeOf[bwapi.TechType]
+      val wTechType = weakTypeTag[bwapi.TechType]
+      val techClass = wTechType.mirror.runtimeClass(techtype)
+
+      val techStrs = techClass.getFields.map(f => {
+        val tType = f.get(wtt).asInstanceOf[bwapi.TechType]
+        val tAttrs = tType.getClass.getDeclaredMethods
+          .filter(m => m.getParameterCount == 0 && m.getName != "size")
+          .map(m => {
+            val retType = m.getReturnType
+            val attrStr = if (retType == classOf[Boolean] ||
+              retType == classOf[Int] ||
+              retType == classOf[bwapi.TilePosition] ||
+              retType == classOf[Double]) {
+              toJsonField(m.getName, m.invoke(tType).toString)
+            } else {
+              toJsonField(m.getName, m.invoke(tType).toString, quotes = true)
+            }
+            attrStr
+          })
+        "    {\n" + tAttrs.mkString(",\n")+"\n    }"
+      })
       pw.write("{\n  \"unitTypes\" :\n")
-      pw.write("  [\n" + unitStrs.mkString(",\n") + "\n  ]\n}")
+      pw.write("  [\n" + unitStrs.mkString(",\n") + "\n  ],\n")
+      pw.write("  \"techTypes\" :\n")
+      pw.write("  [\n" + techStrs.mkString(",\n") + "\n  ]\n}")
       pw.close()
+
     } catch {
       case e : Exception => {
         println(e)
