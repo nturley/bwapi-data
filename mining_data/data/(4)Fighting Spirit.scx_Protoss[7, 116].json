@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(4)Fighting Spirit.scx",
+  location: [224, 3712],
+  tripTimes:
+  [
+    { mineral: [128, -16], tripTime: 73 },
+    { mineral: [160, -48], tripTime: 93 },
+    { mineral: [96, -208], tripTime: 73 },
+    { mineral: [128, -144], tripTime: 66 },
+    { mineral: [128, 48], tripTime: 73 },
+    { mineral: [160, 16], tripTime: 95 },
+    { mineral: [128, -176], tripTime: 91 },
+    { mineral: [160, -112], tripTime: 91 },
+    { mineral: [128, -80], tripTime: 78 }
+  ]
+}

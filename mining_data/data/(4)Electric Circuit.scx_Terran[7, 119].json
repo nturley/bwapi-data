@@ -1,0 +1,17 @@
+{
+  race: "Terran",
+  map: "(4)Electric Circuit.scx",
+  location: [224, 3808],
+  tripTimes:
+  [
+    { mineral: [96, 112], tripTime: 73 },
+    { mineral: [128, 80], tripTime: 95 },
+    { mineral: [160, -80], tripTime: 91 },
+    { mineral: [128, -48], tripTime: 94 },
+    { mineral: [128, 48], tripTime: 91 },
+    { mineral: [128, -176], tripTime: 97 },
+    { mineral: [160, -16], tripTime: 96 },
+    { mineral: [160, -144], tripTime: 118 },
+    { mineral: [128, -112], tripTime: 91 }
+  ]
+}

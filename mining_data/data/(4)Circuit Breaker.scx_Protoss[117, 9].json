@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(4)Circuit Breaker.scx",
+  location: [3744, 288],
+  tripTimes:
+  [
+    { mineral: [-288, -80], tripTime: 91 },
+    { mineral: [-256, -112], tripTime: 84 },
+    { mineral: [-288, 16], tripTime: 75 },
+    { mineral: [-256, -16], tripTime: 80 },
+    { mineral: [-256, 80], tripTime: 73 },
+    { mineral: [-256, -48], tripTime: 82 },
+    { mineral: [-288, -144], tripTime: 106 },
+    { mineral: [-256, -176], tripTime: 73 },
+    { mineral: [-224, -208], tripTime: 91 }
+  ]
+}

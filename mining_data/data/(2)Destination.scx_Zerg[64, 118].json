@@ -1,0 +1,17 @@
+{
+  race: "Zerg",
+  map: "(2)Destination.scx",
+  location: [2048, 3776],
+  tripTimes:
+  [
+    { mineral: [-256, 80], tripTime: 91 },
+    { mineral: [-288, -112], tripTime: 104 },
+    { mineral: [-256, -144], tripTime: 94 },
+    { mineral: [-288, -16], tripTime: 91 },
+    { mineral: [-256, -176], tripTime: 66 },
+    { mineral: [-224, -208], tripTime: 100 },
+    { mineral: [-288, -48], tripTime: 111 },
+    { mineral: [-256, -80], tripTime: 73 },
+    { mineral: [-256, 16], tripTime: 86 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  race: "Zerg",
+  map: "(4)Fighting Spirit.scx",
+  location: [3744, 224],
+  tripTimes:
+  [
+    { mineral: [-224, -208], tripTime: 100 },
+    { mineral: [-256, -176], tripTime: 76 },
+    { mineral: [-288, -48], tripTime: 96 },
+    { mineral: [-256, -80], tripTime: 75 },
+    { mineral: [-288, 16], tripTime: 91 },
+    { mineral: [-256, -16], tripTime: 73 },
+    { mineral: [-288, -112], tripTime: 100 },
+    { mineral: [-256, -144], tripTime: 91 },
+    { mineral: [-256, 48], tripTime: 87 }
+  ]
+}

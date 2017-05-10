@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(4)La Mancha1.1.scx",
+  location: [3712, 3744],
+  tripTimes:
+  [
+    { mineral: [-256, 80], tripTime: 85 },
+    { mineral: [-288, -112], tripTime: 75 },
+    { mineral: [-288, -16], tripTime: 91 },
+    { mineral: [-256, -48], tripTime: 82 },
+    { mineral: [-256, -176], tripTime: 73 },
+    { mineral: [-224, -208], tripTime: 91 },
+    { mineral: [-256, -80], tripTime: 64 },
+    { mineral: [-288, 48], tripTime: 106 },
+    { mineral: [-256, 16], tripTime: 84 }
+  ]
+}

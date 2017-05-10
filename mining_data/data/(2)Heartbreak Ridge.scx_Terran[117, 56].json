@@ -1,0 +1,17 @@
+{
+  race: "Terran",
+  map: "(2)Heartbreak Ridge.scx",
+  location: [3744, 1792],
+  tripTimes:
+  [
+    { mineral: [-288, -80], tripTime: 93 },
+    { mineral: [-256, -112], tripTime: 91 },
+    { mineral: [-288, 16], tripTime: 82 },
+    { mineral: [-256, -16], tripTime: 85 },
+    { mineral: [-256, 80], tripTime: 95 },
+    { mineral: [-256, -176], tripTime: 112 },
+    { mineral: [-288, -144], tripTime: 100 },
+    { mineral: [-224, 112], tripTime: 91 },
+    { mineral: [-288, -48], tripTime: 100 }
+  ]
+}

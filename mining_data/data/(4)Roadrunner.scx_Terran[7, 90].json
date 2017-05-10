@@ -1,0 +1,17 @@
+{
+  race: "Terran",
+  map: "(4)Roadrunner.scx",
+  location: [224, 2880],
+  tripTimes:
+  [
+    { mineral: [128, 16], tripTime: 100 },
+    { mineral: [160, -16], tripTime: 104 },
+    { mineral: [96, -208], tripTime: 100 },
+    { mineral: [128, 80], tripTime: 96 },
+    { mineral: [160, 48], tripTime: 115 },
+    { mineral: [128, -144], tripTime: 73 },
+    { mineral: [160, -80], tripTime: 91 },
+    { mineral: [128, -48], tripTime: 89 },
+    { mineral: [128, -176], tripTime: 103 }
+  ]
+}

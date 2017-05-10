@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(4)Electric Circuit.scx",
+  location: [224, 224],
+  tripTimes:
+  [
+    { mineral: [128, -176], tripTime: 73 },
+    { mineral: [160, -16], tripTime: 105 },
+    { mineral: [160, -144], tripTime: 104 },
+    { mineral: [128, -112], tripTime: 75 },
+    { mineral: [96, 112], tripTime: 105 },
+    { mineral: [128, 80], tripTime: 91 },
+    { mineral: [160, -80], tripTime: 103 },
+    { mineral: [128, -48], tripTime: 73 },
+    { mineral: [128, 48], tripTime: 87 }
+  ]
+}

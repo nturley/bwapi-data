@@ -1,0 +1,17 @@
+{
+  race: "Zerg",
+  map: "(2)Heartbreak Ridge.scx",
+  location: [224, 1184],
+  tripTimes:
+  [
+    { mineral: [128, -176], tripTime: 84 },
+    { mineral: [160, -144], tripTime: 97 },
+    { mineral: [128, -112], tripTime: 84 },
+    { mineral: [128, -16], tripTime: 77 },
+    { mineral: [160, -48], tripTime: 91 },
+    { mineral: [96, 112], tripTime: 91 },
+    { mineral: [128, 80], tripTime: 94 },
+    { mineral: [160, -80], tripTime: 87 },
+    { mineral: [160, 16], tripTime: 91 }
+  ]
+}

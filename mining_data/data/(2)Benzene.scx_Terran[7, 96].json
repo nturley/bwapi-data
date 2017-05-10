@@ -1,0 +1,17 @@
+{
+  race: "Terran",
+  map: "(2)Benzene.scx",
+  location: [224, 3072],
+  tripTimes:
+  [
+    { mineral: [96, 112], tripTime: 74 },
+    { mineral: [128, 80], tripTime: 100 },
+    { mineral: [128, -144], tripTime: 73 },
+    { mineral: [128, -48], tripTime: 96 },
+    { mineral: [128, -176], tripTime: 102 },
+    { mineral: [160, -112], tripTime: 103 },
+    { mineral: [128, -80], tripTime: 91 },
+    { mineral: [160, -16], tripTime: 94 },
+    { mineral: [128, 16], tripTime: 91 }
+  ]
+}

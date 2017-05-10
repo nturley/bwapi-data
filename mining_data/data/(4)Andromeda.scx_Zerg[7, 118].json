@@ -1,0 +1,20 @@
+{
+  race: "Zerg",
+  map: "(4)Andromeda.scx",
+  location: [224, 3776],
+  tripTimes:
+  [
+    { mineral: [-448, 208], tripTime: 625 },
+    { mineral: [160, -80], tripTime: 91 },
+    { mineral: [128, 48], tripTime: 87 },
+    { mineral: [160, 16], tripTime: 97 },
+    { mineral: [128, -176], tripTime: 85 },
+    { mineral: [160, -16], tripTime: 100 },
+    { mineral: [160, -144], tripTime: 109 },
+    { mineral: [128, -112], tripTime: 84 },
+    { mineral: [-544, 208], tripTime: 633 },
+    { mineral: [-512, 176], tripTime: 655 },
+    { mineral: [96, -208], tripTime: 91 },
+    { mineral: [128, 80], tripTime: 91 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  race: "Zerg",
+  map: "(4)Roadrunner.scx",
+  location: [864, 192],
+  tripTimes:
+  [
+    { mineral: [96, 112], tripTime: 91 },
+    { mineral: [128, 80], tripTime: 76 },
+    { mineral: [160, 48], tripTime: 91 },
+    { mineral: [128, -48], tripTime: 82 },
+    { mineral: [128, -176], tripTime: 87 },
+    { mineral: [128, -80], tripTime: 84 },
+    { mineral: [160, -16], tripTime: 95 },
+    { mineral: [128, 16], tripTime: 84 },
+    { mineral: [160, -144], tripTime: 91 }
+  ]
+}

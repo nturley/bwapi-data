@@ -1,0 +1,17 @@
+{
+  race: "Zerg",
+  map: "(3)Neo Moon Glaive.scx",
+  location: [2144, 192],
+  tripTimes:
+  [
+    { mineral: [-256, 16], tripTime: 76 },
+    { mineral: [-160, 112], tripTime: 73 },
+    { mineral: [-96, 144], tripTime: 94 },
+    { mineral: [-64, 112], tripTime: 73 },
+    { mineral: [-256, 80], tripTime: 64 },
+    { mineral: [32, 112], tripTime: 73 },
+    { mineral: [-256, 48], tripTime: 77 },
+    { mineral: [-224, 112], tripTime: 109 },
+    { mineral: [-32, 144], tripTime: 105 }
+  ]
+}

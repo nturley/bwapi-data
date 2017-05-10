@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(3)Tau Cross.scx",
+  location: [2976, 3776],
+  tripTimes:
+  [
+    { mineral: [-288, -16], tripTime: 87 },
+    { mineral: [-256, -48], tripTime: 82 },
+    { mineral: [-256, -176], tripTime: 75 },
+    { mineral: [-224, -208], tripTime: 91 },
+    { mineral: [-256, 16], tripTime: 85 },
+    { mineral: [-288, -80], tripTime: 95 },
+    { mineral: [-160, -208], tripTime: 84 },
+    { mineral: [-256, 80], tripTime: 91 },
+    { mineral: [-256, -144], tripTime: 76 }
+  ]
+}

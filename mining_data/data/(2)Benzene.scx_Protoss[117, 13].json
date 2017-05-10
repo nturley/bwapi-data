@@ -1,0 +1,17 @@
+{
+  race: "Protoss",
+  map: "(2)Benzene.scx",
+  location: [3744, 416],
+  tripTimes:
+  [
+    { mineral: [-256, 16], tripTime: 85 },
+    { mineral: [-256, 80], tripTime: 85 },
+    { mineral: [-288, -112], tripTime: 77 },
+    { mineral: [-256, -144], tripTime: 75 },
+    { mineral: [-288, -16], tripTime: 91 },
+    { mineral: [-256, -48], tripTime: 82 },
+    { mineral: [-256, -176], tripTime: 73 },
+    { mineral: [-224, 112], tripTime: 91 },
+    { mineral: [-256, -80], tripTime: 57 }
+  ]
+}
